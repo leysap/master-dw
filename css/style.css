@@ -282,3 +282,16 @@ body{
     }
     
 }
+
+@media (min-width:437px)and (max-width:530px){
+    div h1{
+        letter-spacing: 2px;
+    }
+    div .subtitulo{
+        letter-spacing: 2px;
+    }
+    .redes a{
+        margin-left: 0.7em;
+        margin-right: 0.7em;
+    }
+}
