@@ -287,15 +287,43 @@ span{
 footer{
     background-color: #202020;
     height: 200px;
-}
-
-.nav-footer{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 3em;
     align-items: center;
+    color: #fff;
 }
+.nav-footer .barra_nav_puntos-footer li a:hover{
+    color: #940253;
+
+}
+footer .div-telefono i{
+    color:#940253
+}
+.div-telefono h5{
+    color:#940253;
+    display:inline-block
+}
+.div-email h5{
+    display: inline-block;
+    color: #940253;
+}
+footer .div-email i{
+    color: #940253;
+}
+.div-telefono{
+    text-align: center;
+    padding: 2em;
+}
+footer .div-email{
+    text-align: center;
+    padding: 2em;
+}
+
+.nav-footer{
+    padding-top: 3em;
+}
+
 /* MEDIA QUERIES */
 @media  (min-width:320px) and (max-width:374px){
     .banner{
