@@ -53,7 +53,6 @@ div .subtitulo{
 
 /* REDES */
 .redes{
-    /* display: block; */
     margin: 20px 0;
 }
 .redes a{
@@ -194,11 +193,8 @@ body{
     padding: 3em;
 }
 
-
 span{
-    /* display: block; */
     font-weight: bold;
-    /* margin: 8px 0; */
 }
 
 /* LOS SKILLS */
@@ -279,27 +275,24 @@ span{
     border-radius: 0.5em;
     border-color: #000;
 }
-/* .cajas-formacion h2 button{
-    background-color:#940253;
-    color: #fff;
-} */
 .cajas-formacion .accordion-item {
     background-color:#e6e6e6; 
 
-  }
+}
 
-  .cajas-formacion .accordion-button {
+.cajas-formacion .accordion-button {
     background-color:#000;
     color: white; 
-  }
+}
 
-  .cajas-formacion .accordion-button:focus {
+.cajas-formacion .accordion-button:focus {
     box-shadow: none;
-  }
+}
 .cajas-formacion .accordion-button:not(.collapsed) {
     background-color: #bbbbbb;
     color: black;
-  }
+}
+
 /* SECCION PROYECTOS */
 .proyectos{
     padding-top: 6em;
@@ -324,7 +317,6 @@ span{
    box-shadow: 5px 5px 8px #e6e6e6;
    color: white;
 }
-
 
 
 /* SECCION FOOTER */
