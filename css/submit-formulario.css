@@ -55,7 +55,7 @@ ul li a{
 
 .banner-form-submit{
     width: 100%;
-    background-image: url(/images/otra.jpg);
+    background-image: url(../images/otra.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

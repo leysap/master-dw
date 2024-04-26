@@ -299,7 +299,7 @@ span{
 .proyectos{
     padding-top: 6em;
     padding-bottom: 7em;
-    background-image: url(/images/1.jpg);
+    background-image: url(./images/1.jpg);
     background-size: cover;
     background-attachment: fixed;
     color: black;
