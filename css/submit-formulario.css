@@ -7,21 +7,20 @@
     font-family: "Fira Code" monospace;
 }
 
-/* MENU */
 .barra-nav{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding: 0.5em;
     position: fixed;
     top:0;
     width: 100%;
     z-index: 1000;
-    padding: 0.5em;
-    width: 100%;
     background-color:#940253;
     transition: all 0.5s linear 0s;
+    font-family: "Fira Code" monospace;
 }
 .logo{
     width: 200px;
@@ -54,44 +53,45 @@ ul li a{
     margin-top: 0.5em;    
 }
 
-/* banner */
-.banner-formulario{
-    background-image: url(/images/img.jpg);
+.banner-form-submit{
+    width: 100%;
+    background-image: url(/images/otra.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
-    height:500px
-}
-/* FORMULARIO */
-.formulario{
-    margin-top: 5em;
-    margin-bottom: 5em;
-}
-h1{
-    font-family: "Fira Code" monospace;
-    font-style: italic;
-    font-weight: 700;
-    font-size:xx-large;
-    text-align: center;
-}
-
-.div-formulario{
-    display: flex;
-    justify-content:space-around;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-form{
+    background-attachment: fixed;
+    height: 1000px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width:90%
+    align-items: center;
 }
-form button a{
+.banner-form-submit div{
+    background-color:#fff;
+    color: black;
+    padding: 2em;
+    text-align: center;
+    border-radius: 1em;
+
+}
+.banner-form-submit div a{
     text-decoration: none;
+    color: black;
+    transition: all 1s ease;
+}
+.banner-form-submit div button{
+    background-color:#940253;
+    color: white;
+    padding: 0.5em;
+    transition: all 1s ease;
+
+}
+.banner-form-submit div button:hover{
+    background-color:#940253;
     color: white;
 }
-
+.banner-form-submit div a:hover{
+    color: #fff;
+}
 /* FOOTER */
 footer{
     background-color: #202020;

@@ -264,7 +264,8 @@ span{
     align-items: center;
 }
 .carrusel{
-    width:40%
+    width:40%;
+    box-shadow: 5px 5px 2px #666;
 }
 .cajas-formacion{
     width:500px;
@@ -274,6 +275,7 @@ span{
     margin: 0.5em;
     border-radius: 0.5em;
     border-color: #000;
+    box-shadow: 5px 5px 2px #666;
 }
 .cajas-formacion .accordion-item {
     background-color:#e6e6e6; 
@@ -303,6 +305,10 @@ span{
     color: black;
     text-align: center;
 }
+.proyectos h2{
+    background-color: #e6e6e6;
+    padding: 0.2em;
+}
 .div-proyectos{
     display: flex;
     flex-direction: row;
@@ -313,12 +319,20 @@ span{
 .div-proyectos .card{
    margin: 0.5em;
    width: 16rem;
-   background-color:#000;
-   box-shadow: 5px 5px 8px #e6e6e6;
-   color: white;
+   background-color:#e6e6e6;
+   box-shadow: 5px 5px 2px #666;
+   color: black;
 }
 
-
+.card a{
+    background-color: black;
+    color: white;
+    transition: all 1s ;
+}
+.card a:hover{
+    background-color: #940253;
+    color: white;
+}
 /* SECCION FOOTER */
 footer{
     background-color: #202020;
@@ -482,14 +496,12 @@ footer .div-email{
 @media (min-width:437px)and (max-width:600px){
     div h1{
         letter-spacing: 2px;
-    }
-    div .subtitulo{
-        letter-spacing: 2px;
-    }
-    div h1{
         font-family: "Fira Code" ,monospace ;
         letter-spacing: none;
         width: 20ch;
+    }
+    div .subtitulo{
+        letter-spacing: 2px;
     }
     #sobre-mi p{
         padding: 1.5em;
@@ -550,6 +562,9 @@ footer .div-email{
 }
 
 @media (min-width:861px)and (max-width:1440px){
+    div h1{
+        margin-left: 0.5em;
+    }
     .cajas-formacion{
         width: 100%;
     }
