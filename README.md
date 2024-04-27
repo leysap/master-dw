@@ -24,8 +24,8 @@ Dejo un resumen de lo que se aplicó en este CV:
 
 - Se buscó optimizar lo más posible el SEO. Agregando etiquetas meta (respectivas) y descripción a los ALT de las imágenes.
 
-- Cree un logo original y personal para mi portfolio.
-![icono-logo](./images/ley-p.png) <br> (utilizado como icono en la ventana de la pestaña)
+- Cree un logo original y personal para mi portfolio. <br>
+![icono-logo](./images/ley-p.png) <br> (utilizado como icono en la ventana de la pestaña)<br>
 ![logo](./images/leysapozo_white-sin-fondo.png)
 
 ## contacto.html
