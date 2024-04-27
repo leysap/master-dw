@@ -44,7 +44,6 @@ ul li a{
     color: #fff;
     background-color: #940253;
     box-shadow: 0 0 20px #fff;
-
 }
 .barra_nav_puntos{
     display: flex;
@@ -54,14 +53,14 @@ ul li a{
     margin-top: 0.5em;    
 }
 
-/* banner */
+/* BANNER */
 .banner-formulario{
-    background-image: url(../images/img.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../images/fondo-contacto.jpg);
     background-attachment: fixed;
     background-size: cover;
     height:500px
 }
+
 /* FORMULARIO */
 .formulario{
     margin-top: 5em;
@@ -74,7 +73,9 @@ h1{
     font-size:xx-large;
     text-align: center;
 }
-
+.formulario h1{
+    margin-top: 3.5em;
+}
 .div-formulario{
     display: flex;
     justify-content:space-around;
@@ -87,15 +88,31 @@ form{
     flex-direction: column;
     width:90%
 }
+form button{
+    border-radius: 1em;
+    border : 0.2em white;
+    background-color: black;
+    color: white;
+    padding: 0.4em;
+}
+form button:hover{
+    background-color: #940253;
+    color: white;
+    padding: 0.4em
+}
 form button a{
     text-decoration: none;
+    color: white;
+}
+form button a:hover{
+    background-color: #940253;
     color: white;
 }
 
 /* FOOTER */
 footer{
     background-color: #202020;
-    height: 200px;
+    height: auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -104,7 +121,6 @@ footer{
 }
 .nav-footer .barra_nav_puntos-footer li a:hover{
     color: #940253;
-
 }
 footer .div-telefono i{
     color:#940253
@@ -130,6 +146,5 @@ footer .div-email{
 }
 .nav-footer{
     padding-top: 3em;
-   
 }
 
