@@ -14,12 +14,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    position: fixed;
-    top:0;
     width: 100%;
-    z-index: 1000;
     padding: 0.5em;
-    width: 100%;
     background-color:#940253;
     transition: all 0.5s linear 0s;
 }
@@ -63,8 +59,9 @@ ul li a{
 
 /* FORMULARIO */
 .formulario{
-    margin-top: 5em;
-    margin-bottom: 5em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color: #e6e6e6;
 }
 h1{
     font-family: "Fira Code" monospace;
@@ -74,19 +71,16 @@ h1{
     text-align: center;
 }
 .formulario h1{
-    margin-top: 3.5em;
+    background-color: #e6e6e6;
 }
 .div-formulario{
-    display: flex;
-    justify-content:space-around;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    padding-right: 5em;
+    padding-left: 5em;
 }
 form{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width:90%
 }
 form button{
     border-radius: 1em;
@@ -148,3 +142,9 @@ footer .div-email{
     padding-top: 3em;
 }
 
+@media (min-width:320px) and (max-width:580px){
+    .div-formulario{
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+}

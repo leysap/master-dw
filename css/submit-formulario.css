@@ -15,10 +15,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 0.5em;
-    position: fixed;
-    top:0;
     width: 100%;
-    z-index: 1000;
     background-color:#940253;
     transition: all 0.5s linear 0s;
     font-family: "Fira Code" monospace;
