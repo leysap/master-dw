@@ -1,4 +1,4 @@
-Hola! Mi nombre es Leysa Pozo. Estudiante del Máster de Desarrollo de Aplicaciones y Desarrollo Web en IMMUNE INSTITUTE.
+Hola! Mi nombre es Leysa Pozo. Estudiante del Máster de Desarrollo de Aplicaciones y Programación Web en IMMUNE INSTITUTE.
 
 Dejo un resumen de lo que se aplicó en este CV:
 
@@ -23,6 +23,10 @@ Dejo un resumen de lo que se aplicó en este CV:
 - Se utilizó los Media Query para que todas las páginas sean completamente responsive.
 
 - Se buscó optimizar lo más posible el SEO. Agregando etiquetas meta (respectivas) y descripción a los ALT de las imágenes.
+
+- Cree un logo original y personal para mi portfolio.
+![icono-logo](./images/ley-p.png) <br> (utilizado como icono en la ventana de la pestaña)
+![logo](./images/leysapozo_white-sin-fondo.png)
 
 ## contacto.html
 
