@@ -9,7 +9,7 @@ Dejo un resumen de lo que se aplicó en este CV:
 
 - script.js: archivo suelto dentro de la carpeta principal (dw-master). Dentro se ha escrito código para la realización del cambio de color de fondo del menú de navegación.
 
-# index.html
+## index.html
 - Página principal.
 
 - Se usó box modeling, flexbox, grids y bootstrap a distintas secciones de la página.
@@ -24,11 +24,11 @@ Dejo un resumen de lo que se aplicó en este CV:
 
 - Se buscó optimizar lo más posible el SEO. Agregando etiquetas meta (respectivas) y descripción a los ALT de las imágenes.
 
-# contacto.html
+## contacto.html
 
 - En esta página se utilizó bootstrap para la realización del formulario de contacto.
 
-# submit-formulario.html
+## submit-formulario.html
 
 - Se creó esta página al presionar "click" al botón "ENVIAR" del formulario en la página de contacto.
 - Solo muestra una redirección de la página a otra (haciendo uso de la etiqueta < a >).
