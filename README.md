@@ -26,7 +26,9 @@ Dejo un resumen de lo que se aplicó en este CV:
 
 - Cree un logo original y personal para mi portfolio. <br>
 ![icono-logo](./images/ley-p.png) <br> (utilizado como icono en la ventana de la pestaña)<br>
-![logo](./images/leysapozo_white-sin-fondo.png)
+![logo](./images/leysapozo_white-sin-fondo.png) <br>
+(logo principal)
+
 
 ## contacto.html
 
