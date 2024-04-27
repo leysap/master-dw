@@ -1,5 +1,5 @@
 ![banner](./images/banner-tercero.jpg) <br>
-![logo](./images/leysapozo_white-sin-fondo.png) 
+![logo](./images/leysapozo_white-sin-fondo.png) <br>
 Hola! Mi nombre es Leysa Pozo. Estudiante del Máster de Desarrollo de Aplicaciones y Programación Web en IMMUNE INSTITUTE.
 
 Dejo un resumen de lo que se aplicó en este CV:
