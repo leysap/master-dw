@@ -221,7 +221,7 @@ span{
     width:8em;
 }
 
-
+/* ANIMACION A LOS ICONOS DE LOS SKILLS */
 @keyframes scroll{
     0%{
         -webkit-transform: translateX(0);
@@ -277,7 +277,6 @@ span{
 }
 .cajas-formacion .accordion-item {
     background-color:#e6e6e6; 
-
 }
 
 .cajas-formacion .accordion-button {
@@ -343,7 +342,6 @@ footer{
 }
 .nav-footer .barra_nav_puntos-footer li a:hover{
     color: #940253;
-
 }
 footer .div-telefono i{
     color:#940253
@@ -374,16 +372,8 @@ footer .div-email{
 
 /* MEDIA QUERIES */
 @media  (min-width:320px) and (max-width:374px){
-    .banner{
-        width: 100%;
-        height: 500px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
     .barra_nav_puntos{
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
         align-items: center;     
         margin-top: 0.5em;   
@@ -443,7 +433,6 @@ footer .div-email{
         width: 100%;
         height: 400px;
         background-position: center;
-        background-repeat: no-repeat;
         background-size: cover;
     }
     .banner-contenedor{
@@ -565,5 +554,15 @@ footer .div-email{
     }
     .cajas-formacion{
         width: 100%;
+    }
+    .formacion{
+        flex-direction: row;
+    }
+    .carrusel{
+        width: 40%;
+        margin: 0;
+    }
+    .cajas-formacion{
+        width:500px;
     }
 }
